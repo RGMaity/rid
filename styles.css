@@ -17,27 +17,25 @@
 }
 
 .sidebar {
-    position: absolute;
     height: 100vh;
     background-color: rgb(183, 182, 182);
-   /* width: 434px;*/
+    width: 434px;
     font-family: 'Poppins', sans-serif;
-    transition: transform 0.3s ease-in;
 
 }
 
 .sidebar nav {
-    padding: 30px;
+    padding: 9px;
 
 }
 
 .sidebar nav li {
-    padding: 10px 0;
+    padding: 5px 0;
     list-style: none;
     font-size: 20px;
 }
 
-.sidebar nav li a {
+.sidebar nav li a{
     text-decoration: none;
     color: rgb(4, 4, 4);
 }
@@ -45,8 +43,6 @@
 .main {
     /* background-color: yellow; */
     width: 90vw;
-    padding: 23px;
-
 }
 
 .container {
@@ -60,7 +56,6 @@
     margin: 140px auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .devPic img {
@@ -104,71 +99,13 @@
     font-weight: bold;
     font-size: 15px;
     margin: 0 15px;
-    cursor: pointer;
-    /*to makr it change pointer*/
+    cursor: pointer;  /*to makr it change pointer*/
 
 }
 
 
-.buttons button:hover {
-    /*hover to make it change colour*/
+.buttons button:hover{   /*hover to make it change colour*/
     background-color: white;
     color: #66a4a5;
 
-}
-
-
-.blogItem {
-    margin: 32px;
-    font-family: 'Abril Fatface', cursive;
-
-
-}
-
-.blogcontainer h1 {
-    font-family: 'Abril Fatface', cursive;
-
-
-
-}
-
-.blogcontainer h2 {
-    font-family: 'Poppins', sans-serif;
-
-
-
-}
-
-
-p {
-    font-family: 'Shippori Mincho', serif;
-    margin: 0;
-    padding: 10px;
-    font-size: px;
-}
-
-
-@media (max-width: 1103px) {
-    
-
-    /*.sidebar {
-        transform: translate(-457px, 10px);
-        position: absolute;
-    }*/
-}
-
-.sidebargo {
-    transform: translate(-457px, 10px);
-    position: absolute;
-}
-
-.hamburger {
-    position: absolute;
-    cursor: pointer;
-    top: 10px;
-    left: 10px;
-}
-
-.cross{
-    margin-left: 120px;
 }
